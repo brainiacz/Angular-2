@@ -1,0 +1,8 @@
+"use strict";
+/*
+    Topic : Module
+*/
+exports.__esModule = true;
+var point_1 = require("./point");
+var point = new point_1.Point(1, 2);
+point.draw();
